@@ -7,3 +7,4 @@
 
 # Ignore directory storing MLflow results
 /mlruns/
+/classification_hema_pipeline/mlruns/
