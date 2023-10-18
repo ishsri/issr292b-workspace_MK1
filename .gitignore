@@ -4,7 +4,8 @@
 *.jpeg
 *.gif
 *.bmp
+*.csv
 
 # Ignore directory storing MLflow results
 /mlruns/
-
+/envs/

@@ -1,0 +1,15 @@
+
+The following have been reloaded with a version change:
+  1) modenv/hiera => modenv/ml
+
+Hi, I am running e2e pipeline on ml
+which: no conda in (/beegfs/ws/1/issr292b-workspace_MK1/pytorch_hyper_classification/hyper_classification/:/usr/local/cuda/bin:/sw/taurus/tools/slurmtools/default/bin:/sw/taurus/tools/slurmtools/default/bin:/software/generic/JupyterHub/production/bin:/sw/installed/Anaconda3/2022.05/condabin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/sbin:/opt/ibutils/bin:/opt/puppetlabs/bin)
+Activate final env ()
+/var/spool/slurmd/job44987595/slurm_script: line 24: conda: command not found
+/var/spool/slurmd/job44987595/slurm_script: line 25: conda: command not found
+Module GCC/10.2.0CUDA/11.1.1-GCC-11.3.0OpenMPI/4.0.5-NVHPC-21.2-CUDA-11.2.1 and 21 dependencies loaded.
+Load modenv/ml  GCC/10.2.0  CUDA/11.1.1 OpenMPI/4.0.5
+Check Python: /software/generic/JupyterHub/production/bin/python
+/var/spool/slurmd/job44987595/slurm_script: line 36: /software/generic/JupyterHub/production/bin/python: cannot execute binary file
+Run script
+NONAME cv0
