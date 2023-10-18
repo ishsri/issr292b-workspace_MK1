@@ -1,0 +1,5 @@
+pytorch==1.12.1 
+torchvision==0.13.1 
+pytorch-cuda==11.6 
+pandas==1.3.5
+torchmetrics==0.10.0
