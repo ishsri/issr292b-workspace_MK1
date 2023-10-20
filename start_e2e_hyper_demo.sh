@@ -1,7 +1,7 @@
 #!/bin/bash -l
 #SBATCH --gres=gpu:1
 #SBATCH --partition=ml
-#SBATCH --output=/home/s7740678/workspaces/beegfs/s7740678-data_02/mds_diagnosis/logs/e2e_%a.log
+#SBATCH --output=/beegfs/ws/1/issr292b-workspace_MK1/issr292b-workspace_MK1/logs/e2e_hpt_%a.log
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --time=24:00:00
