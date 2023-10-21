@@ -2,13 +2,13 @@
 #SBATCH --array 1-4,6-9,11-14,16-19
 #SBATCH --gres=gpu:1
 #SBATCH --partition=alpha
-#SBATCH --output=/home/s7740678/workspaces/beegfs/s7740678-data_02/mds_diagnosis/logs/e2e_%a.log
+#SBATCH --output=/beegfs/ws/1/issr292b-workspace_MK1/issr292b-workspace_MK1/logs/e2e_hpt_%a.log
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --time=24:00:00
 #SBATCH --cpus-per-task=16  # number of processor cores (i.e. threads)
 #SBATCH --mem=16G
-#SBATCH -J "e2e_classification" # job-name
+#SBATCH -J "e2e_hyperparamtuning_classification" # job-name
 #SBATCH --mail-user=ishan.srivastava@tu-dresden.de   # email address
 #SBATCH --mail-type=FAIL
 

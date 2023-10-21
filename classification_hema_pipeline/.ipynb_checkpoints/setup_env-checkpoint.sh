@@ -16,3 +16,5 @@ python -m ipykernel install --user --name class_3_7_10 --display-name="class_3_7
 conda install mlflow=1.29.0 scikit-learn=1.0.2 optuna=2.10.1 pyyaml=6.0 setuptools=65.6.3 matplotlib=22.9.0
 
 _openmp_mutex=5.1 
+conda install pynvml
+pip install torchsampler

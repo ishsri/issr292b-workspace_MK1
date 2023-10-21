@@ -1,0 +1,16 @@
+Hi, I am step  in this array job 45844772
+Activate ml_pipeline_x86_64
+Could not find conda environment: ml_pipeline_x86_64
+You can list all discoverable environments with `conda info --envs`.
+
+Load modenv/hiera  GCC/10.2.0  CUDA/11.1.1 OpenMPI/4.0.5
+Module GCC/10.2.0CUDA/11.1.1OpenMPI/4.0.5 and 15 dependencies loaded.
+Check Python: /sw/installed/Anaconda3/2022.05/bin/python
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+ModuleNotFoundError: No module named 'torch'
+Run script
+/var/spool/slurmd/job45887854/slurm_script: line 40: % 5 : syntax error: operand expected (error token is "% 5 ")
+ cv0
+python /home/s7740678/p_ai4hematology/code/s7740678/mds_diagnosis/libs/bms_ml_tools/bms_ml_tools/pytorch_pipeline/libs/hyper_classification/hyper_classification/hyper_wsi.py -j 4 --no-log-roc --no-log-model -b 2 --epochs 30 --input-size 1920 2560 --class-names   --data-paths /home/s7740678/p_ai4hematology/code/s7740678/mds_diagnosis/tasks/configs//base_config/trainval/cv0/train.csv /home/s7740678/p_ai4hematology/code/s7740678/mds_diagnosis/tasks/configs//base_config/trainval/cv0/val.csv --experiment-name _pytorch01 --output-dir /home/s7740678/workspaces/beegfs/s7740678-data_02/mds_diagnosis/tasks/results//pytorch_01/cv0/
+python: can't open file '/home/s7740678/p_ai4hematology/code/s7740678/mds_diagnosis/libs/bms_ml_tools/bms_ml_tools/pytorch_pipeline/libs/hyper_classification/hyper_classification/hyper_wsi.py': [Errno 13] Permission denied
