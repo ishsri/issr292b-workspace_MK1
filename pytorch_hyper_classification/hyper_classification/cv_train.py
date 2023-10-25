@@ -71,7 +71,7 @@ class EarlyStopping:
 class MlflowTracker(object):
     
     active_run: mlflow.ActiveRun = None
-    tracking_uri = "http://localhost:5000"
+    tracking_uri = "http://taurusi8033.taurus.hrsk.tu-dresden.de:5000" #http://localhost:5000
     experiment_name = ""
     run_uuid = ""
     run_name = ""

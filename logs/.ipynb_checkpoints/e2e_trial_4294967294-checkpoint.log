@@ -1,0 +1,21 @@
+Hi, I am step  in this array job 
+Activate ml_pipeline_x86_64
+Load modenv/hiera  GCC/10.2.0  CUDA/11.1.1 OpenMPI/4.0.5
+Module GCC/10.2.0CUDA/11.1.1OpenMPI/4.0.5 and 15 dependencies loaded.
+Check Python: /beegfs/ws/1/issr292b-workspace_MK1/issr292b-workspace_MK1/envs/final/bin/python
+Torch v1.13.0, Torchvision v0.14.0
+Cuda available: True
+Run script
+mds_eb_vs_d_e2e_bg cv0
+python /beegfs/ws/1/issr292b-workspace_MK1/issr292b-workspace_MK1/pytorch_hyper_classification/hyper_classification/hyper_wsi.py -j 4 --no-log-roc --no-log-model -b 2 --epochs  --input-size 1920 2560 --class-names d mds_eb --data-paths /beegfs/ws/1/issr292b-workspace_MK1/model_files/mds_eb_vs_d_e2e_bg/base_config/trainval/cv{cv}/train.csv /beegfs/ws/1/issr292b-workspace_MK1/model_files/mds_eb_vs_d_e2e_bg/base_config/trainval/cv{cv}/val.csv --experiment-name mds_eb_vs_d_e2e_bg_pytorch01 --output-dir /beegfs/ws/1/issr292b-workspace_MK1/output_mds
+usage: hyper_wsi.py [-h] (--data-path DATA_PATH | --data-paths DATA_PATHS DATA_PATHS) [--imgs-path IMGS_PATH]
+                    [--run_name RUN_NAME] [--experiment-name EXPERIMENT_NAME] [--input-size INPUT_SIZE INPUT_SIZE]
+                    [--test-split TEST_SPLIT] [--model MODEL] [--device DEVICE] [-b BATCH_SIZE] [--epochs N] [-j N]
+                    [--lr LR] [--momentum M] [--wd W] [--lr-step-size LR_STEP_SIZE] [--lr-gamma LR_GAMMA]
+                    [--print-freq PRINT_FREQ] [--output-dir OUTPUT_DIR] [--resume RESUME] [--start-epoch N]
+                    [--run-uuid RUN_UUID] [--sync-bn] [--test-only] [--pretrained PRETRAINED] [--distributed DISTRIBUTED]
+                    [--world-size WORLD_SIZE] [--dist-url DIST_URL] [--log-model] [--no-log-model] [--log-roc]
+                    [--no-log-roc] [--balance_samples] [--dataset-type DATASET_TYPE]
+                    [--class-names CLASS_NAMES [CLASS_NAMES ...]] [--min-memory MIN_MEMORY] [-cv NR_CV]
+                    [--cv-start CV_START] [--user_attr KEY1=VAL1,KEY2=VAL2...] [--system_attr KEY1=VAL1,KEY2=VAL2...]
+hyper_wsi.py: error: argument --epochs: expected one argument

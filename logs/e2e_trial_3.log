@@ -1,1 +1,18 @@
-Hi, I am step  in this array job 45891951
+Hi, I am step  in this array job 45951614
+Activate ml_pipeline_x86_64
+Could not find conda environment: ml_pipeline_x86_64
+You can list all discoverable environments with `conda info --envs`.
+
+Load modenv/hiera  GCC/10.2.0  CUDA/11.1.1 OpenMPI/4.0.5
+Module GCC/10.2.0CUDA/11.1.1OpenMPI/4.0.5 and 15 dependencies loaded.
+Check Python: /sw/installed/Anaconda3/2022.05/bin/python
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+ModuleNotFoundError: No module named 'torch'
+Run script
+mds_eb_vs_d_e2e_bg cv0
+python /beegfs/ws/1/issr292b-workspace_MK1/issr292b-workspace_MK1/pytorch_hyper_classification/hyper_classification/hyper_wsi.py -j 4 --no-log-roc --no-log-model -b 2 --epochs  --input-size 1920 2560 --class-names d mds_eb --data-paths /beegfs/ws/1/issr292b-workspace_MK1/model_files/mds_eb_vs_d_e2e_bg/base_config/trainval/cv{cv}/train.csv /beegfs/ws/1/issr292b-workspace_MK1/model_files/mds_eb_vs_d_e2e_bg/base_config/trainval/cv{cv}/val.csv --experiment-name mds_eb_vs_d_e2e_bg_pytorch01 --output-dir /beegfs/ws/1/issr292b-workspace_MK1/output_mds
+Traceback (most recent call last):
+  File "/beegfs/ws/1/issr292b-workspace_MK1/issr292b-workspace_MK1/pytorch_hyper_classification/hyper_classification/hyper_wsi.py", line 3, in <module>
+    import optuna
+ModuleNotFoundError: No module named 'optuna'
